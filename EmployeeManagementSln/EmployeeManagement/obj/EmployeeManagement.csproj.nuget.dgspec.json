@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\.Net Core\\Employee Management Project\\EmployeeManagementSln\\EmployeeManagement\\EmployeeManagement.csproj": {}
+    "D:\\.Net Core\\Employee Management Project\\EmployeeManagementSln\\EmployeeManagement\\EmployeeManagement.csproj": {}
   },
   "projects": {
-    "d:\\.Net Core\\Employee Management Project\\EmployeeManagementSln\\EmployeeManagement\\EmployeeManagement.csproj": {
+    "D:\\.Net Core\\Employee Management Project\\EmployeeManagementSln\\EmployeeManagement\\EmployeeManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\.Net Core\\Employee Management Project\\EmployeeManagementSln\\EmployeeManagement\\EmployeeManagement.csproj",
+        "projectUniqueName": "D:\\.Net Core\\Employee Management Project\\EmployeeManagementSln\\EmployeeManagement\\EmployeeManagement.csproj",
         "projectName": "EmployeeManagement",
-        "projectPath": "d:\\.Net Core\\Employee Management Project\\EmployeeManagementSln\\EmployeeManagement\\EmployeeManagement.csproj",
+        "projectPath": "D:\\.Net Core\\Employee Management Project\\EmployeeManagementSln\\EmployeeManagement\\EmployeeManagement.csproj",
         "packagesPath": "C:\\Users\\mindfire\\.nuget\\packages\\",
-        "outputPath": "d:\\.Net Core\\Employee Management Project\\EmployeeManagementSln\\EmployeeManagement\\obj\\",
+        "outputPath": "D:\\.Net Core\\Employee Management Project\\EmployeeManagementSln\\EmployeeManagement\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
