@@ -20551,6 +20551,21 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\.Net Core\\Employee Management Project\\EmployeeManagementSln\\EmployeeManagement\\Views\\Administration\\EditUser.cshtml",
+      "TargetPath": "Views\\Administration\\EditUser.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\.Net Core\\Employee Management Project\\EmployeeManagementSln\\EmployeeManagement\\Views\\Administration\\AccessDenied.cshtml",
+      "TargetPath": "Views\\Administration\\AccessDenied.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\.Net Core\\Employee Management Project\\EmployeeManagementSln\\EmployeeManagement\\Views\\Administration\\CreateRole.cshtml",
+      "TargetPath": "Views\\Administration\\CreateRole.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\.Net Core\\Employee Management Project\\EmployeeManagementSln\\EmployeeManagement\\Views\\Account\\Register.cshtml",
       "TargetPath": "Views\\Account\\Register.cshtml",
       "FileKind": "mvc"
@@ -20571,6 +20586,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\.Net Core\\Employee Management Project\\EmployeeManagementSln\\EmployeeManagement\\Views\\Administration\\ListRoles.cshtml",
+      "TargetPath": "Views\\Administration\\ListRoles.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\.Net Core\\Employee Management Project\\EmployeeManagementSln\\EmployeeManagement\\Views\\Employee\\Index.cshtml",
       "TargetPath": "Views\\Employee\\Index.cshtml",
       "FileKind": "mvc"
@@ -20578,6 +20598,16 @@
     {
       "FilePath": "d:\\.Net Core\\Employee Management Project\\EmployeeManagementSln\\EmployeeManagement\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\.Net Core\\Employee Management Project\\EmployeeManagementSln\\EmployeeManagement\\Views\\Administration\\ManageUserClaims.cshtml",
+      "TargetPath": "Views\\Administration\\ManageUserClaims.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\.Net Core\\Employee Management Project\\EmployeeManagementSln\\EmployeeManagement\\Views\\Administration\\ListUsers.cshtml",
+      "TargetPath": "Views\\Administration\\ListUsers.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -20596,23 +20626,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\.Net Core\\Employee Management Project\\EmployeeManagementSln\\EmployeeManagement\\Views\\Adminstration\\EditUsersInRole.cshtml",
-      "TargetPath": "Views\\Adminstration\\EditUsersInRole.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "d:\\.Net Core\\Employee Management Project\\EmployeeManagementSln\\EmployeeManagement\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\.Net Core\\Employee Management Project\\EmployeeManagementSln\\EmployeeManagement\\Views\\Adminstration\\CreateRole.cshtml",
-      "TargetPath": "Views\\Adminstration\\CreateRole.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\.Net Core\\Employee Management Project\\EmployeeManagementSln\\EmployeeManagement\\Views\\Adminstration\\EditRole.cshtml",
-      "TargetPath": "Views\\Adminstration\\EditRole.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -20636,13 +20651,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\.Net Core\\Employee Management Project\\EmployeeManagementSln\\EmployeeManagement\\Views\\Administration\\EditUsersInRole.cshtml",
+      "TargetPath": "Views\\Administration\\EditUsersInRole.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\.Net Core\\Employee Management Project\\EmployeeManagementSln\\EmployeeManagement\\Views\\Employee\\EmployeeNotFound.cshtml",
       "TargetPath": "Views\\Employee\\EmployeeNotFound.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\.Net Core\\Employee Management Project\\EmployeeManagementSln\\EmployeeManagement\\Views\\Adminstration\\ListRole.cshtml",
-      "TargetPath": "Views\\Adminstration\\ListRole.cshtml",
+      "FilePath": "d:\\.Net Core\\Employee Management Project\\EmployeeManagementSln\\EmployeeManagement\\Views\\Administration\\EditRole.cshtml",
+      "TargetPath": "Views\\Administration\\EditRole.cshtml",
       "FileKind": "mvc"
     },
     {

@@ -43,7 +43,7 @@ namespace EmployeeManagement.Controllers {
 
                     if(signInManager.IsSignedIn(User) && User.IsInRole("Admin"))
                     {
-                        return RedirectToAction("ListUser", "Adminstrator");
+                        return RedirectToAction("ListUser", "Administrator");
                     }
 
                     ViewBag.ErrorTitle = "Registration successful";

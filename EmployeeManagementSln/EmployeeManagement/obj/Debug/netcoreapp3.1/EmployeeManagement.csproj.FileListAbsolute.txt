@@ -290,10 +290,6 @@ D:\.Net Core\Employee Management Project\EmployeeManagementSln\EmployeeManagemen
 D:\.Net Core\Employee Management Project\EmployeeManagementSln\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Views\Account\ForgotPassword.cshtml.g.cs
 D:\.Net Core\Employee Management Project\EmployeeManagementSln\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
 D:\.Net Core\Employee Management Project\EmployeeManagementSln\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Views\Account\Register.cshtml.g.cs
-D:\.Net Core\Employee Management Project\EmployeeManagementSln\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Views\Adminstration\CreateRole.cshtml.g.cs
-D:\.Net Core\Employee Management Project\EmployeeManagementSln\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Views\Adminstration\EditRole.cshtml.g.cs
-D:\.Net Core\Employee Management Project\EmployeeManagementSln\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Views\Adminstration\EditUsersInRole.cshtml.g.cs
-D:\.Net Core\Employee Management Project\EmployeeManagementSln\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Views\Adminstration\ListRole.cshtml.g.cs
 D:\.Net Core\Employee Management Project\EmployeeManagementSln\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Create.cshtml.g.cs
 D:\.Net Core\Employee Management Project\EmployeeManagementSln\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Details.cshtml.g.cs
 D:\.Net Core\Employee Management Project\EmployeeManagementSln\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Edit.cshtml.g.cs
@@ -320,3 +316,11 @@ D:\.Net Core\Employee Management Project\EmployeeManagementSln\EmployeeManagemen
 D:\.Net Core\Employee Management Project\EmployeeManagementSln\EmployeeManagement\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.Google.dll
 D:\.Net Core\Employee Management Project\EmployeeManagementSln\EmployeeManagement\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.Facebook.dll
 D:\.Net Core\Employee Management Project\EmployeeManagementSln\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Views\Account\ConfirmEmail.cshtml.g.cs
+D:\.Net Core\Employee Management Project\EmployeeManagementSln\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Views\Administration\AccessDenied.cshtml.g.cs
+D:\.Net Core\Employee Management Project\EmployeeManagementSln\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Views\Administration\CreateRole.cshtml.g.cs
+D:\.Net Core\Employee Management Project\EmployeeManagementSln\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Views\Administration\EditRole.cshtml.g.cs
+D:\.Net Core\Employee Management Project\EmployeeManagementSln\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Views\Administration\EditUser.cshtml.g.cs
+D:\.Net Core\Employee Management Project\EmployeeManagementSln\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Views\Administration\EditUsersInRole.cshtml.g.cs
+D:\.Net Core\Employee Management Project\EmployeeManagementSln\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Views\Administration\ListUsers.cshtml.g.cs
+D:\.Net Core\Employee Management Project\EmployeeManagementSln\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Views\Administration\ManageUserClaims.cshtml.g.cs
+D:\.Net Core\Employee Management Project\EmployeeManagementSln\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Views\Administration\ListRoles.cshtml.g.cs

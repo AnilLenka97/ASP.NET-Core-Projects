@@ -12,12 +12,12 @@ using Microsoft.AspNetCore.Mvc;
 namespace EmployeeManagement.Controllers
 {
     [Authorize(Roles= "Admin")]
-    public class AdminstrationController : Controller
+    public class AdministrationController : Controller
     {
         private readonly RoleManager<IdentityRole> roleManager;
         private readonly UserManager<ApplicationUser> userManager;
 
-        public AdminstrationController(RoleManager<IdentityRole> roleManager,
+        public AdministrationController(RoleManager<IdentityRole> roleManager,
                                        UserManager<ApplicationUser> userManager)
         {
             this.roleManager = roleManager;
@@ -43,7 +43,7 @@ namespace EmployeeManagement.Controllers
 
                 if(result.Succeeded)
                 {
-                    return RedirectToAction("ListRole", "Adminstration");
+                    return RedirectToAction("ListRoles", "Administration");
                 }
 
                 foreach(IdentityError error in result.Errors)
@@ -55,7 +55,7 @@ namespace EmployeeManagement.Controllers
         }
 
         [HttpGet]
-        public IActionResult ListRole()
+        public IActionResult ListRoles()
         {
             var roles = roleManager.Roles;
             return View(roles);
@@ -102,7 +102,7 @@ namespace EmployeeManagement.Controllers
                 var result = await roleManager.UpdateAsync(role);
                 if(result.Succeeded)
                 {
-                    return RedirectToAction("ListRole");
+                    return RedirectToAction("ListRoles");
                 }
                 foreach(var error in result.Errors)
                 {
@@ -172,6 +172,15 @@ namespace EmployeeManagement.Controllers
             }
             return RedirectToAction("EditRole", new { Id = roleId });
         }
+
+        [HttpGet]
+        public IActionResult ListUsers()
+        {
+            var users = userManager.Users;
+            return View(users);
+        }
+
         
+
     }
 }
