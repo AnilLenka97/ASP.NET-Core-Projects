@@ -1,0 +1,31 @@
+@model IEnumerable<Employee>
+
+@{
+    ViewBag.Title = "Employee Details";
+}
+
+<div class="card-deck">
+    @foreach (var item in Model)
+    {
+        var photoPath = "~/images/" + (item.PhotoPath ?? "noimage.jpg");
+
+        <div class="card m-3">
+            <div class="card-header text-center">
+                <h1>@item.Name</h1>
+            </div>
+
+            <div class="card-body text-center">
+                <img class="card-img-top" src="@photoPath" asp-append-version="true" />
+                <h4>Employee Id : @item.Id</h4>
+                <h4>Email : @item.Email</h4>
+                <h4>Department : @item.Department</h4>
+            </div>
+
+            <div class="card-footer text-center">
+                <a asp-controller="Employee" asp-action="Details" asp-route-id="@item.Id" class="btn btn-success m-1">View</a>
+                <a asp-controller="Employee" asp-action="Edit" asp-route-id="@item.Id" class="btn btn-primary m-1">Edit</a>
+                <a href="" class="btn btn-danger m-1">Delete</a>
+            </div>
+        </div>
+    }
+</div>
