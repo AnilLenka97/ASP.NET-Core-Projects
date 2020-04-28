@@ -20546,6 +20546,11 @@
   "RootNamespace": "EmployeeManagement",
   "Documents": [
     {
+      "FilePath": "d:\\.Net Core\\Employee Management Project\\EmployeeManagementSln\\EmployeeManagement\\Views\\Administration\\ManageUserRoles.cshtml",
+      "TargetPath": "Views\\Administration\\ManageUserRoles.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\.Net Core\\Employee Management Project\\EmployeeManagementSln\\EmployeeManagement\\Views\\Employee\\Edit.cshtml",
       "TargetPath": "Views\\Employee\\Edit.cshtml",
       "FileKind": "mvc"
