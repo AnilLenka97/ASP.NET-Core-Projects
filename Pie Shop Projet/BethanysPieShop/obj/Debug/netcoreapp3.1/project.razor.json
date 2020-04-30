@@ -1,5 +1,5 @@
 {
-  "FilePath": "d:\\.Net Core\\Practice Projects\\EmployeeManagementSln\\EmployeeManagement\\EmployeeManagement.csproj",
+  "FilePath": "d:\\.Net Core\\Practice Projects\\Pie Shop Projet\\BethanysPieShop\\BethanysPieShop.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -17868,31 +17868,6 @@
         }
       },
       {
-        "Kind": "MVC.ViewComponent",
-        "Name": "__Generated__TotalNumberOfEmployeesViewComponentTagHelper",
-        "AssemblyName": "EmployeeManagement",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": false,
-        "TagMatchingRules": [
-          {
-            "TagName": "vc:total-number-of-employees",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "ITagHelper",
-          "Common.TypeName": "__Generated__TotalNumberOfEmployeesViewComponentTagHelper",
-          "MVC.ViewComponent.Name": "TotalNumberOfEmployees"
-        }
-      },
-      {
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -20543,141 +20518,41 @@
     ],
     "CSharpLanguageVersion": 800
   },
-  "RootNamespace": "EmployeeManagement",
+  "RootNamespace": "BethanysPieShop",
   "Documents": [
     {
-      "FilePath": "d:\\.Net Core\\Practice Projects\\EmployeeManagementSln\\EmployeeManagement\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FilePath": "d:\\.Net Core\\Practice Projects\\Pie Shop Projet\\BethanysPieShop\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\.Net Core\\Practice Projects\\EmployeeManagementSln\\EmployeeManagement\\Views\\Account\\ForgotPassword.cshtml",
-      "TargetPath": "Views\\Account\\ForgotPassword.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\.Net Core\\Practice Projects\\EmployeeManagementSln\\EmployeeManagement\\Views\\Employee\\Edit.cshtml",
-      "TargetPath": "Views\\Employee\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\.Net Core\\Practice Projects\\EmployeeManagementSln\\EmployeeManagement\\Views\\Account\\ConfirmEmail.cshtml",
-      "TargetPath": "Views\\Account\\ConfirmEmail.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\.Net Core\\Practice Projects\\EmployeeManagementSln\\EmployeeManagement\\Views\\Administration\\AccessDenied.cshtml",
-      "TargetPath": "Views\\Administration\\AccessDenied.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\.Net Core\\Practice Projects\\EmployeeManagementSln\\EmployeeManagement\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\.Net Core\\Practice Projects\\EmployeeManagementSln\\EmployeeManagement\\Views\\Administration\\ListRoles.cshtml",
-      "TargetPath": "Views\\Administration\\ListRoles.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\.Net Core\\Practice Projects\\EmployeeManagementSln\\EmployeeManagement\\Views\\Administration\\CreateRole.cshtml",
-      "TargetPath": "Views\\Administration\\CreateRole.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\.Net Core\\Practice Projects\\EmployeeManagementSln\\EmployeeManagement\\Views\\Shared\\Components\\TotalNumberOfEmployees\\Default.cshtml",
-      "TargetPath": "Views\\Shared\\Components\\TotalNumberOfEmployees\\Default.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\.Net Core\\Practice Projects\\EmployeeManagementSln\\EmployeeManagement\\Views\\Administration\\ManageUserRoles.cshtml",
-      "TargetPath": "Views\\Administration\\ManageUserRoles.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\.Net Core\\Practice Projects\\EmployeeManagementSln\\EmployeeManagement\\Views\\Administration\\ListUsers.cshtml",
-      "TargetPath": "Views\\Administration\\ListUsers.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\.Net Core\\Practice Projects\\EmployeeManagementSln\\EmployeeManagement\\Views\\Administration\\ManageUserClaims.cshtml",
-      "TargetPath": "Views\\Administration\\ManageUserClaims.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\.Net Core\\Practice Projects\\EmployeeManagementSln\\EmployeeManagement\\Views\\Employee\\Create.cshtml",
-      "TargetPath": "Views\\Employee\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\.Net Core\\Practice Projects\\EmployeeManagementSln\\EmployeeManagement\\Views\\Administration\\EditRole.cshtml",
-      "TargetPath": "Views\\Administration\\EditRole.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\.Net Core\\Practice Projects\\EmployeeManagementSln\\EmployeeManagement\\Views\\Employee\\EmployeeNotFound.cshtml",
-      "TargetPath": "Views\\Employee\\EmployeeNotFound.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\.Net Core\\Practice Projects\\EmployeeManagementSln\\EmployeeManagement\\Views\\Employee\\Index.cshtml",
-      "TargetPath": "Views\\Employee\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\.Net Core\\Practice Projects\\EmployeeManagementSln\\EmployeeManagement\\Views\\Administration\\EditUser.cshtml",
-      "TargetPath": "Views\\Administration\\EditUser.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\.Net Core\\Practice Projects\\EmployeeManagementSln\\EmployeeManagement\\Views\\Administration\\EditUsersInRole.cshtml",
-      "TargetPath": "Views\\Administration\\EditUsersInRole.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\.Net Core\\Practice Projects\\EmployeeManagementSln\\EmployeeManagement\\Views\\Account\\Login.cshtml",
-      "TargetPath": "Views\\Account\\Login.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\.Net Core\\Practice Projects\\EmployeeManagementSln\\EmployeeManagement\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\.Net Core\\Practice Projects\\EmployeeManagementSln\\EmployeeManagement\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\.Net Core\\Practice Projects\\EmployeeManagementSln\\EmployeeManagement\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\.Net Core\\Practice Projects\\EmployeeManagementSln\\EmployeeManagement\\Views\\_ViewImports.cshtml",
+      "FilePath": "d:\\.Net Core\\Practice Projects\\Pie Shop Projet\\BethanysPieShop\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\.Net Core\\Practice Projects\\EmployeeManagementSln\\EmployeeManagement\\Views\\Account\\Register.cshtml",
-      "TargetPath": "Views\\Account\\Register.cshtml",
+      "FilePath": "d:\\.Net Core\\Practice Projects\\Pie Shop Projet\\BethanysPieShop\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\.Net Core\\Practice Projects\\EmployeeManagementSln\\EmployeeManagement\\Views\\Employee\\Details.cshtml",
-      "TargetPath": "Views\\Employee\\Details.cshtml",
+      "FilePath": "d:\\.Net Core\\Practice Projects\\Pie Shop Projet\\BethanysPieShop\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\.Net Core\\Practice Projects\\EmployeeManagementSln\\EmployeeManagement\\Views\\Shared\\NotFound.cshtml",
-      "TargetPath": "Views\\Shared\\NotFound.cshtml",
+      "FilePath": "d:\\.Net Core\\Practice Projects\\Pie Shop Projet\\BethanysPieShop\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\.Net Core\\Practice Projects\\EmployeeManagementSln\\EmployeeManagement\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FilePath": "d:\\.Net Core\\Practice Projects\\Pie Shop Projet\\BethanysPieShop\\Views\\Home\\Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\.Net Core\\Practice Projects\\Pie Shop Projet\\BethanysPieShop\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     }
   ],

@@ -8445,11 +8445,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\.Net Core\\Employee Management Project\\EmployeeManagementSln\\EmployeeManagement\\EmployeeManagement.csproj",
+      "projectUniqueName": "d:\\.Net Core\\Practice Projects\\EmployeeManagementSln\\EmployeeManagement\\EmployeeManagement.csproj",
       "projectName": "EmployeeManagement",
-      "projectPath": "d:\\.Net Core\\Employee Management Project\\EmployeeManagementSln\\EmployeeManagement\\EmployeeManagement.csproj",
+      "projectPath": "d:\\.Net Core\\Practice Projects\\EmployeeManagementSln\\EmployeeManagement\\EmployeeManagement.csproj",
       "packagesPath": "C:\\Users\\mindfire\\.nuget\\packages\\",
-      "outputPath": "d:\\.Net Core\\Employee Management Project\\EmployeeManagementSln\\EmployeeManagement\\obj\\",
+      "outputPath": "d:\\.Net Core\\Practice Projects\\EmployeeManagementSln\\EmployeeManagement\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
