@@ -1,19 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using AutoMapper;
+﻿using AutoMapper;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using ParkyApi.Models;
 using ParkyApi.Models.Dtos;
 using ParkyApi.Repository.IRepository;
+using System.Collections.Generic;
 
 namespace ParkyApi.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/v{version:apiVersion}/nationalparks")]
+    //[Route("api/[controller]")]
     [ApiController]
+    //[ApiExplorerSettings(GroupName = "ParkyOpenApiSpecNP")]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     public class NationalParksController : Controller
     {
@@ -85,7 +83,7 @@ namespace ParkyApi.Controllers
             var nationalParkObj = _mapper.Map<NationalPark>(nationalParkDto);
             if(!_npRepo.CreateNationalPark(nationalParkObj))
             {
-                ModelState.AddModelError("", $"Something went wront when saving the record {nationalParkObj.Name}");
+                ModelState.AddModelError("", $"Something went wrong when saving the record {nationalParkObj.Name}");
                 return StatusCode(500, ModelState);
             }
             return CreatedAtRoute("GetNationalPark", new { nationalParkId = nationalParkObj.Id }, nationalParkObj);
@@ -105,7 +103,7 @@ namespace ParkyApi.Controllers
             var nationalParkObj = _mapper.Map<NationalPark>(nationalParkDto);
             if (!_npRepo.UpdateNationalPark(nationalParkObj))
             {
-                ModelState.AddModelError("", $"Something went wront when updating the record {nationalParkObj.Name}");
+                ModelState.AddModelError("", $"Something went wrong when updating the record {nationalParkObj.Name}");
                 return StatusCode(500, ModelState);
             }
 
@@ -127,7 +125,7 @@ namespace ParkyApi.Controllers
             var nationalParkObj = _npRepo.GetNationalPark(nationalParkId);
             if (!_npRepo.DeleteNationalPark(nationalParkObj))
             {
-                ModelState.AddModelError("", $"Something went wront when deleting the record {nationalParkObj.Name}");
+                ModelState.AddModelError("", $"Something went wrong when deleting the record {nationalParkObj.Name}");
                 return StatusCode(500, ModelState);
             }
 

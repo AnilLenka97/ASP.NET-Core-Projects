@@ -3,9 +3,8 @@ using static ParkyApi.Models.Trail;
 
 namespace ParkyApi.Models.Dtos
 {
-    public class TrailDto
+    public class TrailCreateDto
     {
-        public int Id { get; set; }
         [Required]
         public string Name { get; set; }
         [Required]
@@ -13,6 +12,5 @@ namespace ParkyApi.Models.Dtos
         public DifficultyType Difficulty { get; set; }
         [Required]
         public int NationalParkId { get; set; }
-        public NationalParkDto NationalPark { get; set; }
     }
 }

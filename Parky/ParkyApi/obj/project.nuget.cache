@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "6It+9j3d+mlZFv0gZbRParUw0+c7XV8Lo5nX+iZQts4UXWj36nvKsTcr4sGUizifqSH+cGgl5njgpE49WJT5KQ==",
+  "dgSpecHash": "veqn0jpUSjT494AZB9MiCWkU6Xu+SB1TQaWssoZ8qFMrOnYHRa+wQ4hvcqHn6dAWxWq4bBYOPNPI/a0S9Sra8w==",
   "success": true,
   "projectFilePath": "D:\\.Net Core\\Practice Projects\\Parky\\ParkyApi\\ParkyApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mindfire\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\mindfire\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\mindfire\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\mindfire\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\4.1.1\\microsoft.aspnetcore.mvc.versioning.4.1.1.nupkg.sha512",
+    "C:\\Users\\mindfire\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning.apiexplorer\\4.1.1\\microsoft.aspnetcore.mvc.versioning.apiexplorer.4.1.1.nupkg.sha512",
     "C:\\Users\\mindfire\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
     "C:\\Users\\mindfire\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\3.1.0\\microsoft.aspnetcore.razor.language.3.1.0.nupkg.sha512",
     "C:\\Users\\mindfire\\.nuget\\packages\\microsoft.aspnetcore.razor.runtime\\2.2.0\\microsoft.aspnetcore.razor.runtime.2.2.0.nupkg.sha512",

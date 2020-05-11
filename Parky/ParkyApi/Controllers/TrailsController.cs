@@ -8,8 +8,10 @@ using System.Collections.Generic;
 
 namespace ParkyApi.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/v{version:apiVersion}/trails")]
+    //[Route("api/[controller]")]
     [ApiController]
+    //[ApiExplorerSettings(GroupName = "ParkyOpenApiSpecTrails")]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     public class TrailsController : Controller
     {
@@ -63,7 +65,7 @@ namespace ParkyApi.Controllers
         [ProducesResponseType(StatusCodes.Status201Created, Type = typeof(TrailDto))]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public IActionResult CreateTrail([FromBody] TrailDto trailDto)
+        public IActionResult CreateTrail([FromBody] TrailCreateDto trailDto)
         {
             if(trailDto == null)
             {
@@ -81,7 +83,7 @@ namespace ParkyApi.Controllers
             var trailObj = _mapper.Map<Trail>(trailDto);
             if(!_trailRepo.CreateTrail(trailObj))
             {
-                ModelState.AddModelError("", $"Something went wront when saving the record {trailObj.Name}");
+                ModelState.AddModelError("", $"Something went wrong when saving the record {trailObj.Name}");
                 return StatusCode(500, ModelState);
             }
             return CreatedAtRoute("GetTrail", new { trailId = trailObj.Id }, trailObj);
@@ -91,7 +93,7 @@ namespace ParkyApi.Controllers
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public IActionResult UpdateTrail(int trailId, [FromBody] TrailDto trailDto)
+        public IActionResult UpdateTrail(int trailId, [FromBody] TrailUpdateDto trailDto)
         {
             if(trailDto == null || trailId != trailDto.Id)
             {
@@ -101,7 +103,7 @@ namespace ParkyApi.Controllers
             var trailObj = _mapper.Map<Trail>(trailDto);
             if (!_trailRepo.UpdateTrail(trailObj))
             {
-                ModelState.AddModelError("", $"Something went wront when updating the record {trailObj.Name}");
+                ModelState.AddModelError("", $"Something went wrong when updating the record {trailObj.Name}");
                 return StatusCode(500, ModelState);
             }
 
@@ -123,7 +125,7 @@ namespace ParkyApi.Controllers
             var trailObj = _trailRepo.GetTrail(trailId);
             if (!_trailRepo.DeleteTrail(trailObj))
             {
-                ModelState.AddModelError("", $"Something went wront when deleting the record {trailObj.Name}");
+                ModelState.AddModelError("", $"Something went wrong when deleting the record {trailObj.Name}");
                 return StatusCode(500, ModelState);
             }
 

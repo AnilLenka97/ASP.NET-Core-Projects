@@ -127,7 +127,9 @@ D:\.Net Core\Practice Projects\Parky\ParkyApi\bin\Debug\netcoreapp3.1\Microsoft.
 D:\.Net Core\Practice Projects\Parky\ParkyApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
 D:\.Net Core\Practice Projects\Parky\ParkyApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\.Net Core\Practice Projects\Parky\ParkyApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\.Net Core\Practice Projects\Parky\ParkyApi\bin\Debug\netcoreapp3.1\ParkyApi.xml
+D:\.Net Core\Practice Projects\Parky\ParkyApi\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Versioning.dll
+D:\.Net Core\Practice Projects\Parky\ParkyApi\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll
 D:\.Net Core\Practice Projects\Parky\ParkyApi\obj\Debug\netcoreapp3.1\ParkyApi.csproj.CoreCompileInputs.cache
 D:\.Net Core\Practice Projects\Parky\ParkyApi\obj\Debug\netcoreapp3.1\ParkyApi.MvcApplicationPartsAssemblyInfo.cs
 D:\.Net Core\Practice Projects\Parky\ParkyApi\obj\Debug\netcoreapp3.1\ParkyApi.MvcApplicationPartsAssemblyInfo.cache
-D:\.Net Core\Practice Projects\Parky\ParkyApi\bin\Debug\netcoreapp3.1\ParkyApi.xml
