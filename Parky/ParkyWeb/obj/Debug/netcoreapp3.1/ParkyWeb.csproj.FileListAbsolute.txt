@@ -383,7 +383,6 @@ D:\.Net Core\Practice Projects\Parky\ParkyWeb\obj\Debug\netcoreapp3.1\ParkyWeb.T
 D:\.Net Core\Practice Projects\Parky\ParkyWeb\obj\Debug\netcoreapp3.1\ParkyWeb.RazorCoreGenerate.cache
 D:\.Net Core\Practice Projects\Parky\ParkyWeb\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 D:\.Net Core\Practice Projects\Parky\ParkyWeb\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
-D:\.Net Core\Practice Projects\Parky\ParkyWeb\obj\Debug\netcoreapp3.1\Razor\Views\NationalPark\Index.cshtml.g.cs
 D:\.Net Core\Practice Projects\Parky\ParkyWeb\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 D:\.Net Core\Practice Projects\Parky\ParkyWeb\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 D:\.Net Core\Practice Projects\Parky\ParkyWeb\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -398,3 +397,5 @@ D:\.Net Core\Practice Projects\Parky\ParkyWeb\obj\Debug\netcoreapp3.1\staticweba
 D:\.Net Core\Practice Projects\Parky\ParkyWeb\obj\Debug\netcoreapp3.1\ParkyWeb.dll
 D:\.Net Core\Practice Projects\Parky\ParkyWeb\obj\Debug\netcoreapp3.1\ParkyWeb.pdb
 D:\.Net Core\Practice Projects\Parky\ParkyWeb\obj\Debug\netcoreapp3.1\ParkyWeb.genruntimeconfig.cache
+D:\.Net Core\Practice Projects\Parky\ParkyWeb\obj\Debug\netcoreapp3.1\Razor\Views\NationalParks\Index.cshtml.g.cs
+D:\.Net Core\Practice Projects\Parky\ParkyWeb\obj\Debug\netcoreapp3.1\Razor\Views\NationalParks\Upsert.cshtml.g.cs
