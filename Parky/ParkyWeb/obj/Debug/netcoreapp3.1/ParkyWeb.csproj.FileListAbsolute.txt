@@ -348,6 +348,3 @@ D:\.Net Core\Practice Projects\Parky\ParkyWeb\bin\Debug\netcoreapp3.1\ru\Microso
 D:\.Net Core\Practice Projects\Parky\ParkyWeb\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
 D:\.Net Core\Practice Projects\Parky\ParkyWeb\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
 D:\.Net Core\Practice Projects\Parky\ParkyWeb\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\.Net Core\Practice Projects\Parky\ParkyWeb\obj\Debug\netcoreapp3.1\ParkyWeb.csproj.CoreCompileInputs.cache
-D:\.Net Core\Practice Projects\Parky\ParkyWeb\obj\Debug\netcoreapp3.1\ParkyWeb.MvcApplicationPartsAssemblyInfo.cs
-D:\.Net Core\Practice Projects\Parky\ParkyWeb\obj\Debug\netcoreapp3.1\ParkyWeb.MvcApplicationPartsAssemblyInfo.cache
