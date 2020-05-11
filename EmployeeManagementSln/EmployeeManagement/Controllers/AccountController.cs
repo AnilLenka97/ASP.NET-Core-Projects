@@ -73,7 +73,7 @@ namespace EmployeeManagement.Controllers {
         public async Task<IActionResult> Login (string returnUrl) {
             LoginViewModel model = new LoginViewModel () {
                 ReturnUrl = returnUrl,
-                ExternalLogins = (await signInManager.GetExternalAuthenticationSchemesAsync ()).ToList ()
+                ExternalLogins = (await signInManager.GetExternalAuthenticationSchemesAsync ()).ToList()
             };
             return View (model);
         }
