@@ -48,7 +48,7 @@ namespace ParkyApi
 
             services.AddVersionedApiExplorer(options => options.GroupNameFormat = "'v'VVV");
             services.AddTransient<IConfigureOptions<SwaggerGenOptions>, ConfigureSwaggerOptions>();
-
+            services.AddSwaggerGen();
             //services.AddSwaggerGen(options => {
             //    options.SwaggerDoc("ParkyOpenApiSpec", new Microsoft.OpenApi.Models.OpenApiInfo()
             //    {
@@ -60,9 +60,6 @@ namespace ParkyApi
                 //    Title = "Parky API Trails",
                 //    Version = "1"
                 //});
-            //    var xmlCommentFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
-            //    var cmlCommentsFullPAth = Path.Combine(AppContext.BaseDirectory, xmlCommentFile);
-            //    options.IncludeXmlComments(cmlCommentsFullPAth);
             //});
 
             services.AddControllers();

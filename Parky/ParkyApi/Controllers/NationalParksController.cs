@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using ParkyApi.Models;
 using ParkyApi.Models.Dtos;
 using ParkyApi.Repository.IRepository;
+using System;
 using System.Collections.Generic;
 
 namespace ParkyApi.Controllers
@@ -86,7 +87,8 @@ namespace ParkyApi.Controllers
                 ModelState.AddModelError("", $"Something went wrong when saving the record {nationalParkObj.Name}");
                 return StatusCode(500, ModelState);
             }
-            return CreatedAtRoute("GetNationalPark", new { nationalParkId = nationalParkObj.Id }, nationalParkObj);
+            return CreatedAtRoute("GetNationalPark", new { version = HttpContext.GetRequestedApiVersion().ToString(), nationalParkId = nationalParkObj.Id }, 
+                                                            nationalParkObj);
         }
 
         [HttpPatch("{nationalParkId:int}", Name = "UpdateNationalPark")]

@@ -2,12 +2,15 @@
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 using Swashbuckle.AspNetCore.SwaggerGen;
+using System;
+using System.IO;
+using System.Reflection;
 
 namespace ParkyApi
 {
     public class ConfigureSwaggerOptions : IConfigureOptions<SwaggerGenOptions>
     {
-        private readonly IApiVersionDescriptionProvider provider;
+        readonly IApiVersionDescriptionProvider provider;
 
         public ConfigureSwaggerOptions(IApiVersionDescriptionProvider provider) => this.provider = provider;
         public void Configure(SwaggerGenOptions options)
@@ -21,6 +24,9 @@ namespace ParkyApi
                             Version = desc.ApiVersion.ToString()
                         });
             }
+            var xmlCommentFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+            var cmlCommentsFullPAth = Path.Combine(AppContext.BaseDirectory, xmlCommentFile);
+            options.IncludeXmlComments(cmlCommentsFullPAth);
         }
     }
 }
