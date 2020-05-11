@@ -130,3 +130,4 @@ D:\.Net Core\Practice Projects\Parky\ParkyApi\bin\Debug\netcoreapp3.1\Swashbuckl
 D:\.Net Core\Practice Projects\Parky\ParkyApi\obj\Debug\netcoreapp3.1\ParkyApi.csproj.CoreCompileInputs.cache
 D:\.Net Core\Practice Projects\Parky\ParkyApi\obj\Debug\netcoreapp3.1\ParkyApi.MvcApplicationPartsAssemblyInfo.cs
 D:\.Net Core\Practice Projects\Parky\ParkyApi\obj\Debug\netcoreapp3.1\ParkyApi.MvcApplicationPartsAssemblyInfo.cache
+D:\.Net Core\Practice Projects\Parky\ParkyApi\bin\Debug\netcoreapp3.1\ParkyApi.xml
