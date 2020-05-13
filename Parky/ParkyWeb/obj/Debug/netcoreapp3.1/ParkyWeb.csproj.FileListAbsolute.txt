@@ -399,3 +399,5 @@ D:\.Net Core\Practice Projects\Parky\ParkyWeb\obj\Debug\netcoreapp3.1\ParkyWeb.p
 D:\.Net Core\Practice Projects\Parky\ParkyWeb\obj\Debug\netcoreapp3.1\ParkyWeb.genruntimeconfig.cache
 D:\.Net Core\Practice Projects\Parky\ParkyWeb\obj\Debug\netcoreapp3.1\Razor\Views\NationalParks\Index.cshtml.g.cs
 D:\.Net Core\Practice Projects\Parky\ParkyWeb\obj\Debug\netcoreapp3.1\Razor\Views\NationalParks\Upsert.cshtml.g.cs
+D:\.Net Core\Practice Projects\Parky\ParkyWeb\obj\Debug\netcoreapp3.1\Razor\Views\Trails\Index.cshtml.g.cs
+D:\.Net Core\Practice Projects\Parky\ParkyWeb\obj\Debug\netcoreapp3.1\Razor\Views\Trails\Upsert.cshtml.g.cs

@@ -4,72 +4,65 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using ParkyWeb.Models;
+using ParkyWeb.Models.ViewModels;
 using ParkyWeb.Repository.IRepository;
 
 namespace ParkyWeb.Controllers
 {
-    public class NationalParksController : Controller
+    public class TrailsController : Controller
     {
         private readonly INationalParkRepository _npRepo;
+        private readonly ITrailRepository _trailRepo;
 
-        public NationalParksController(INationalParkRepository npRepo)
+        public TrailsController(INationalParkRepository npRepo, ITrailRepository trailRepo)
         {
             this._npRepo = npRepo;
+            this._trailRepo = trailRepo;
         }
         public IActionResult Index()
         {
-            return View(new NationalPark() { });
+            return View(new Trail() { });
         }
 
         public async Task<IActionResult> Upsert(int? id)
         {
-            NationalPark obj = new NationalPark();
+            IEnumerable<NationalPark> npList = await _npRepo.GetAllAsync(SD.NationalParkAPIPath);
+            TrailsVM objVM = new TrailsVM()
+            {
+                NationalParkList = npList.Select(a => new SelectListItem
+                {
+                    Text = a.Name,
+                    Value = a.Id.ToString()
+                }),
+                Trail = new Trail()
+            };
             if(id == null)
             {
-                return View(obj);
+                return View(objVM);
             }
-            obj = await _npRepo.GetAsync(SD.NationalParkAPIPath, id.GetValueOrDefault());
-            if(obj == null)
+            objVM.Trail = await _trailRepo.GetAsync(SD.TrailsAPIPath, id.GetValueOrDefault());
+            if(objVM.Trail == null)
             {
                 return NotFound();
             }
-            return View(obj);
+            return View(objVM);
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Upsert(NationalPark obj)
+        public async Task<IActionResult> Upsert(TrailsVM obj)
         {
             if(ModelState.IsValid)
             {
-                var files = HttpContext.Request.Form.Files;
-                if(files.Count > 0)
+                if(obj.Trail.Id == 0)
                 {
-                    byte[] p1 = null;
-                    using (var fs1 = files[0].OpenReadStream())
-                    {
-                        using (var ms1 = new MemoryStream())
-                        {
-                            fs1.CopyTo(ms1);
-                            p1 = ms1.ToArray();
-                        }
-                    }
-                    obj.Picture = p1;
+                    await _trailRepo.CreateAsync(SD.TrailsAPIPath, obj.Trail);
                 }
                 else
                 {
-                    var objFromDb = await _npRepo.GetAsync(SD.NationalParkAPIPath, obj.Id);
-                    obj.Picture = objFromDb.Picture;
-                }
-
-                if(obj.Id == 0)
-                {
-                    await _npRepo.CreateAsync(SD.NationalParkAPIPath, obj);
-                }
-                else
-                {
-                    await _npRepo.UpdateAsync(SD.NationalParkAPIPath + obj.Id, obj);
+                    await _trailRepo.UpdateAsync(SD.TrailsAPIPath + obj.Trail.Id, obj.Trail);
                 }
                 return RedirectToAction(nameof(Index));
             }
@@ -79,15 +72,15 @@ namespace ParkyWeb.Controllers
             }
         }
 
-        public async Task<IActionResult> GetAllNationalPark()
+        public async Task<IActionResult> GetAllTrail()
         {
-            return Json(new { data = await _npRepo.GetAllAsync(SD.NationalParkAPIPath) });
+            return Json(new { data = await _trailRepo.GetAllAsync(SD.TrailsAPIPath) });
         }
 
         [HttpDelete]
         public async Task<IActionResult> Delete(int id)
         {
-            var status = await _npRepo.DeleteAsync(SD.NationalParkAPIPath, id);
+            var status = await _trailRepo.DeleteAsync(SD.TrailsAPIPath, id);
             if(status)
             {
                 return Json(new { success = true, message = "Delete Successful" });

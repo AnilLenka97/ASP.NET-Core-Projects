@@ -121,9 +121,6 @@ D:\.Net Core\Practice Projects\Parky\ParkyApi\bin\Debug\netcoreapp3.1\runtimes\u
 D:\.Net Core\Practice Projects\Parky\ParkyApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\.Net Core\Practice Projects\Parky\ParkyApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 D:\.Net Core\Practice Projects\Parky\ParkyApi\obj\Debug\netcoreapp3.1\ParkyApi.csprojAssemblyReference.cache
-D:\.Net Core\Practice Projects\Parky\ParkyApi\obj\Debug\netcoreapp3.1\ParkyApi.csproj.CoreCompileInputs.cache
-D:\.Net Core\Practice Projects\Parky\ParkyApi\obj\Debug\netcoreapp3.1\ParkyApi.MvcApplicationPartsAssemblyInfo.cs
-D:\.Net Core\Practice Projects\Parky\ParkyApi\obj\Debug\netcoreapp3.1\ParkyApi.MvcApplicationPartsAssemblyInfo.cache
 D:\.Net Core\Practice Projects\Parky\ParkyApi\obj\Debug\netcoreapp3.1\ParkyApi.AssemblyInfoInputs.cache
 D:\.Net Core\Practice Projects\Parky\ParkyApi\obj\Debug\netcoreapp3.1\ParkyApi.AssemblyInfo.cs
 D:\.Net Core\Practice Projects\Parky\ParkyApi\obj\Debug\netcoreapp3.1\ParkyApi.RazorTargetAssemblyInfo.cache
@@ -133,3 +130,15 @@ D:\.Net Core\Practice Projects\Parky\ParkyApi\obj\Debug\netcoreapp3.1\staticweba
 D:\.Net Core\Practice Projects\Parky\ParkyApi\obj\Debug\netcoreapp3.1\ParkyApi.dll
 D:\.Net Core\Practice Projects\Parky\ParkyApi\obj\Debug\netcoreapp3.1\ParkyApi.pdb
 D:\.Net Core\Practice Projects\Parky\ParkyApi\obj\Debug\netcoreapp3.1\ParkyApi.genruntimeconfig.cache
+D:\.Net Core\Practice Projects\Parky\ParkyApi\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\.Net Core\Practice Projects\Parky\ParkyApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\.Net Core\Practice Projects\Parky\ParkyApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\.Net Core\Practice Projects\Parky\ParkyApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\.Net Core\Practice Projects\Parky\ParkyApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\.Net Core\Practice Projects\Parky\ParkyApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\.Net Core\Practice Projects\Parky\ParkyApi\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\.Net Core\Practice Projects\Parky\ParkyApi\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+D:\.Net Core\Practice Projects\Parky\ParkyApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+D:\.Net Core\Practice Projects\Parky\ParkyApi\obj\Debug\netcoreapp3.1\ParkyApi.csproj.CoreCompileInputs.cache
+D:\.Net Core\Practice Projects\Parky\ParkyApi\obj\Debug\netcoreapp3.1\ParkyApi.MvcApplicationPartsAssemblyInfo.cs
+D:\.Net Core\Practice Projects\Parky\ParkyApi\obj\Debug\netcoreapp3.1\ParkyApi.MvcApplicationPartsAssemblyInfo.cache
