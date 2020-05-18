@@ -46,7 +46,7 @@ namespace ParkyApi.Repository
             user.Token = tokenHandler.WriteToken(token);
             user.Password = "";
 
-            return user; 
+            return user;
         }
 
         public bool IsUniqueUser(string username)

@@ -401,3 +401,6 @@ D:\.Net Core\Practice Projects\Parky\ParkyWeb\obj\Debug\netcoreapp3.1\Razor\View
 D:\.Net Core\Practice Projects\Parky\ParkyWeb\obj\Debug\netcoreapp3.1\Razor\Views\NationalParks\Upsert.cshtml.g.cs
 D:\.Net Core\Practice Projects\Parky\ParkyWeb\obj\Debug\netcoreapp3.1\Razor\Views\Trails\Index.cshtml.g.cs
 D:\.Net Core\Practice Projects\Parky\ParkyWeb\obj\Debug\netcoreapp3.1\Razor\Views\Trails\Upsert.cshtml.g.cs
+D:\.Net Core\Practice Projects\Parky\ParkyWeb\obj\Debug\netcoreapp3.1\Razor\Views\Home\Login.cshtml.g.cs
+D:\.Net Core\Practice Projects\Parky\ParkyWeb\obj\Debug\netcoreapp3.1\Razor\Views\Home\Register.cshtml.g.cs
+D:\.Net Core\Practice Projects\Parky\ParkyWeb\obj\Debug\netcoreapp3.1\Razor\Views\Home\AccessDenied.cshtml.g.cs
