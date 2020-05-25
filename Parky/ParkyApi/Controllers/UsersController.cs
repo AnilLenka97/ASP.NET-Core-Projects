@@ -31,7 +31,7 @@ namespace ParkyApi.Controllers
         }
 
         [AllowAnonymous]
-        [HttpPost]
+        [HttpPost("register")]
         public IActionResult Register([FromBody] AuthenticationModel model)
         {
             bool ifUserNameUnique = _userRepo.IsUniqueUser(model.Username);

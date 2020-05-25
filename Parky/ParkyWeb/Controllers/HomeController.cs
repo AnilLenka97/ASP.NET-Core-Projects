@@ -86,7 +86,7 @@ namespace ParkyWeb.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Register(User model)
         {
-            bool result = await _accRepo.RegisterAsync(SD.AccountAPIPath + "register/", model);
+            bool result = await _accRepo.RegisterAsync(SD.AccountAPIPath + "Register/", model);
             if (result == false)
             {
                 return View();

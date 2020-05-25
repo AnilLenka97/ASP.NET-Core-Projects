@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Options;
+﻿using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using ParkyApi.Data;
 using ParkyApi.Models;
@@ -14,11 +15,13 @@ namespace ParkyApi.Repository
     public class UserRepository : IUserRepository
     {
         private readonly ApplicationDbContext _db;
+        private readonly IConfiguration _config;
         private readonly AppSettings _appsettings;
 
-        public UserRepository(ApplicationDbContext db, IOptions<AppSettings> appsettings)
+        public UserRepository(ApplicationDbContext db, IOptions<AppSettings> appsettings, IConfiguration config)
         {
             _db = db;
+            _config = config;
             _appsettings = appsettings.Value;
         }
         public User Authenticate(string username, string password)
