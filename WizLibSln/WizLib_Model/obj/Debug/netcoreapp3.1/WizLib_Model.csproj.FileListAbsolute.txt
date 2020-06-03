@@ -1,0 +1,9 @@
+D:\.Net Core\Practice Projects\WizLibSln\WizLib_Model\bin\Debug\netcoreapp3.1\WizLib_Model.deps.json
+D:\.Net Core\Practice Projects\WizLibSln\WizLib_Model\bin\Debug\netcoreapp3.1\WizLib_Model.dll
+D:\.Net Core\Practice Projects\WizLibSln\WizLib_Model\bin\Debug\netcoreapp3.1\WizLib_Model.pdb
+D:\.Net Core\Practice Projects\WizLibSln\WizLib_Model\obj\Debug\netcoreapp3.1\WizLib_Model.csprojAssemblyReference.cache
+D:\.Net Core\Practice Projects\WizLibSln\WizLib_Model\obj\Debug\netcoreapp3.1\WizLib_Model.csproj.CoreCompileInputs.cache
+D:\.Net Core\Practice Projects\WizLibSln\WizLib_Model\obj\Debug\netcoreapp3.1\WizLib_Model.AssemblyInfoInputs.cache
+D:\.Net Core\Practice Projects\WizLibSln\WizLib_Model\obj\Debug\netcoreapp3.1\WizLib_Model.AssemblyInfo.cs
+D:\.Net Core\Practice Projects\WizLibSln\WizLib_Model\obj\Debug\netcoreapp3.1\WizLib_Model.dll
+D:\.Net Core\Practice Projects\WizLibSln\WizLib_Model\obj\Debug\netcoreapp3.1\WizLib_Model.pdb
