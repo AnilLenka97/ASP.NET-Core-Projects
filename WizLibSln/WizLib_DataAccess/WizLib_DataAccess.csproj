@@ -5,8 +5,29 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Migrations\20200604090904_AddGenreTableToDb.cs" />
+    <Compile Remove="Migrations\20200604090904_AddGenreTableToDb.Designer.cs" />
+    <Compile Remove="Migrations\20200604090957_AddGenreTableToDbqww.cs" />
+    <Compile Remove="Migrations\20200604090957_AddGenreTableToDbqww.Designer.cs" />
+    <Compile Remove="Migrations\20200604091151_AddGenreTableToDbtest.cs" />
+    <Compile Remove="Migrations\20200604091151_AddGenreTableToDbtest.Designer.cs" />
+    <Compile Remove="Migrations\20200604091822_AddDisplayOrderToGenreTabletest.cs" />
+    <Compile Remove="Migrations\20200604091822_AddDisplayOrderToGenreTabletest.Designer.cs" />
+    <Compile Remove="Migrations\20200604092345_ChangeNameToGenreNameInGenreTable.cs" />
+    <Compile Remove="Migrations\20200604092345_ChangeNameToGenreNameInGenreTable.Designer.cs" />
+    <Compile Remove="Migrations\20200604094715_RemoveGenreTableFromDb.cs" />
+    <Compile Remove="Migrations\20200604094715_RemoveGenreTableFromDb.Designer.cs" />
+    <Compile Remove="Migrations\20200604152734_AddRelationCategoryAndBookTable.cs" />
+    <Compile Remove="Migrations\20200604152734_AddRelationCategoryAndBookTable.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.4" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
   </ItemGroup>
 
   <ItemGroup>

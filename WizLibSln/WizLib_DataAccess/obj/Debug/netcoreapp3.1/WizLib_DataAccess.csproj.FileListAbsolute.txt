@@ -9,4 +9,7 @@ D:\.Net Core\Practice Projects\WizLibSln\WizLib_DataAccess\bin\Debug\netcoreapp3
 D:\.Net Core\Practice Projects\WizLibSln\WizLib_DataAccess\bin\Debug\netcoreapp3.1\WizLib_Model.pdb
 D:\.Net Core\Practice Projects\WizLibSln\WizLib_DataAccess\obj\Debug\netcoreapp3.1\WizLib_DataAccess.csprojAssemblyReference.cache
 D:\.Net Core\Practice Projects\WizLibSln\WizLib_DataAccess\obj\Debug\netcoreapp3.1\WizLib_DataAccess.csproj.CopyComplete
+D:\.Net Core\Practice Projects\WizLibSln\WizLib_DataAccess\bin\Debug\netcoreapp3.1\WizLib_DataAccess.runtimeconfig.json
+D:\.Net Core\Practice Projects\WizLibSln\WizLib_DataAccess\bin\Debug\netcoreapp3.1\WizLib_DataAccess.runtimeconfig.dev.json
 D:\.Net Core\Practice Projects\WizLibSln\WizLib_DataAccess\obj\Debug\netcoreapp3.1\WizLib_DataAccess.csproj.CoreCompileInputs.cache
+D:\.Net Core\Practice Projects\WizLibSln\WizLib_DataAccess\obj\Debug\netcoreapp3.1\WizLib_DataAccess.genruntimeconfig.cache
