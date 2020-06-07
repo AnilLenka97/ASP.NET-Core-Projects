@@ -6,9 +6,11 @@ namespace WizLib_DataAccess.FluentConfig
 {
     public class FluentPublisherConfig : IEntityTypeConfiguration<Fluent_Publisher>
     {
-        public void Configure(EntityTypeBuilder<Fluent_Publisher> builder)
+        public void Configure(EntityTypeBuilder<Fluent_Publisher> modelBuilder)
         {
-
+            modelBuilder.HasKey(b => b.Publisher_Id);
+            modelBuilder.Property(b => b.Name).IsRequired();
+            modelBuilder.Property(b => b.Location).IsRequired();
         }
     }
 }
