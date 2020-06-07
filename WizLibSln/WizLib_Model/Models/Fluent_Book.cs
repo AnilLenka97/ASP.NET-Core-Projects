@@ -4,27 +4,19 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace WizLib_Model.Models
 {
-    public class Book
+    public class Fluent_Book
     {
-        [Key]
         public int Book_Id { get; set; }
-        [Required]
         public string Title { get; set; }
-        [Required]
-        [MaxLength(15)]
         public string ISBN { get; set; }
-        [Required]
         public double Price { get; set; }
 
-        [ForeignKey("BookDetail")]
         public int BookDetail_Id { get; set; }
-        public BookDetail BookDetail { get; set; }
+        public Fluent_BookDetail Fluent_BookDetail { get; set; }
 
-        [ForeignKey("Publisher")]
         public int Publisher_Id { get; set; }
-        public Publisher Publisher { get; set; }
+        public Fluent_Publisher Fluent_Publisher { get; set; }
 
-        public virtual ICollection<BookAuthor> BookAuthors { get; set; }
-        //public List<BookAuthor> BookAuthors { get; set; }
+        public ICollection<Fluent_BookAuthor> Fluent_BookAuthors { get; set; }
     }
 }

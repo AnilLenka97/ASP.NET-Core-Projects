@@ -19,6 +19,10 @@
     <Compile Remove="Migrations\20200604094715_RemoveGenreTableFromDb.Designer.cs" />
     <Compile Remove="Migrations\20200604152734_AddRelationCategoryAndBookTable.cs" />
     <Compile Remove="Migrations\20200604152734_AddRelationCategoryAndBookTable.Designer.cs" />
+    <Compile Remove="Migrations\20200607115023_Add many to many relation between Book and Author.cs" />
+    <Compile Remove="Migrations\20200607115023_Add many to many relation between Book and Author.Designer.cs" />
+    <Compile Remove="Migrations\20200607122633_Add BookDetails to Db.cs" />
+    <Compile Remove="Migrations\20200607122633_Add BookDetails to Db.Designer.cs" />
   </ItemGroup>
 
   <ItemGroup>
