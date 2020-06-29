@@ -18,12 +18,7 @@ namespace WizLib_DataAccess.FluentConfig
             //one to many relationship between publisher and book
             modelBuilder.HasOne(b => b.Fluent_Publisher)
                 .WithMany(b => b.Fluent_Books).HasForeignKey(x => x.Publisher_Id);
-            //many to many
-            modelBuilder.HasKey(ba => new { ba.Author_Id, ba.Book_Id });
-            modelBuilder.HasOne(b => b.Fluent_Book)
-                .WithMany(b => b.Fluent_BookAuthors).HasForeignKey(x => x.Book_Id);
-            modelBuilder.HasOne(b => b.Fluent_Author)
-                 .WithMany(b => b.Fluent_BookAuthors).HasForeignKey(x => x.Author_Id);
+            
         }
     }
 }
